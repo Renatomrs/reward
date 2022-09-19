@@ -1,0 +1,101 @@
+.cardUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 23px;
+  margin-bottom: 20px;
+
+  box-shadow: 0 1px 7px  #181820;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.header-card {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 50px;
+  box-shadow: none;
+}
+
+.header-card .avatar {
+  width: 60px;
+  height: 60px;
+
+  padding: 18px;
+  margin-right: 9px;
+
+  border-radius: 50%;
+  box-shadow: 0 1px 7px  #121214;
+}
+
+.user-name-card {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 9px;
+}
+
+.container-score {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+.container-score span {
+  font-size: 1.5em;
+}
+
+.container-score #result {
+  margin-left: 9px;
+}
+
+.avatar .icon {
+  fill: #555;
+}
+
+.cardUser .customer-info {
+  flex: 1;
+  height: 70px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.customer-info div {
+  height: 32px;
+}
+
+.customer-info div .icon {
+  width: 18px;
+  height: 18px;
+
+  margin-right: 9px;
+
+  fill: #AAA;
+}
+
+.cardUser .customer-info div span {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  font-size: 16px;
+
+  padding: 0;
+
+  color: #E1E1E7;
+}

@@ -1,0 +1,64 @@
+.usersContainer {
+  width: 90%;
+  max-width: 500px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.button-purchase {
+  width: 90%;
+  max-width: 200px;
+
+  margin-top: 20px;
+
+  background-color: #1a1a1a;
+  border-color: #646cff;
+  color: #646cff;
+}
+
+.button-view-purchase {
+  width: 90%;
+  max-width: 500px;
+
+  margin: 30px 0 50px 0;
+
+  background-color: #1a1a1a;
+  border-color: #646cff;
+  color: #646cff;
+}
+
+.title-h2 {
+  width: 90%;
+  max-width: 420px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-bottom: 14px;
+}
+
+.purchasesContainer {
+  width: 90%;
+  max-width: 420px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.user-status {
+  width: 90%;
+  max-width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 18px auto 18px auto;
+}
+
+.user-status span {
+  font-size: 1em;
+}

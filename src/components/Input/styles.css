@@ -1,0 +1,21 @@
+.inputFild {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px;
+}
+
+.inputFild .label {
+  color: #AAA;
+  font-weight: bold;
+
+  margin-bottom: 4px;
+}
+
+.inputFild input {
+  flex: none;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.2);
+}

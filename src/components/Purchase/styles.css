@@ -1,0 +1,67 @@
+.cardPurchase {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 23px;
+  margin-bottom: 20px;
+
+  box-shadow: 0 1px 7px  #181820;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.cardPurchase .customer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  /* background-color: aquamarine; */
+}
+
+.customer-info div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+ .cardPurchase .customer-info div .icon {
+  width: 16px;
+  height: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 9px;
+
+  fill: #AAA;
+
+  /* background-color: #F33; */
+}
+
+.cardPurchase .customer-info div span {
+  font-size: 16px;
+
+  color: #E1E1E7;
+
+  /* background-color: #000; */
+}
+
+.cardPurchase .container-score {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-size: 14px;
+
+  margin-top: 50px;
+
+  /* background-color: #000; */
+}
